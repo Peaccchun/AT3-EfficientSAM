@@ -1,0 +1,19 @@
+# Local environments and private settings
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+# External data, checkpoints and generated results
+data/
+weights/
+EfficientSAM/
+results_pet/
+results_ablation/
+*.pt
+*.pth
+*.zip
